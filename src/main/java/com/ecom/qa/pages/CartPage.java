@@ -19,7 +19,7 @@ public class CartPage extends AbstarctComponents {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath = "//*[@class='cartSection']//h3")
+	@FindBy(xpath = "//*[@class='cartSection']//h")
 	List<WebElement> cartProduct;
 	@FindBy(xpath ="//*[@class='totalRow']//button")
 	WebElement checkOutButton;
