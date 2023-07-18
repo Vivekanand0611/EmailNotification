@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-18T16:58:04 IST" name="Suite" finished-at="2023-07-18T16:58:42 IST" duration-ms="38085">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.errorValidationTest()[pri:0, instance:com.ecom.qa.standalone.ErrorValidationTest@4e50c791]" name="errorValidationTest" class="com.ecom.qa.standalone.ErrorValidationTest"/>
+        <method signature="ErrorValidationTest.productError()[pri:0, instance:com.ecom.qa.standalone.ErrorValidationTest@4e50c791]" name="productError" class="com.ecom.qa.standalone.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="PurchageProduct">
+        <method signature="SubmitOrderTest.submitTest(java.util.HashMap)[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" name="submitTest" class="com.ecom.qa.standalone.SubmitOrderTest"/>
+      </group> <!-- PurchageProduct -->
+    </groups>
+    <test started-at="2023-07-18T16:58:04 IST" name="Error Validation Test" finished-at="2023-07-18T16:58:35 IST" duration-ms="31272">
+      <class name="com.ecom.qa.standalone.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.ecom.qa.standalone.ErrorValidationTest@4e50c791]" started-at="2023-07-18T16:58:04 IST" name="launchApp" finished-at="2023-07-18T16:58:12 IST" duration-ms="8358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="errorValidationTest()[pri:0, instance:com.ecom.qa.standalone.ErrorValidationTest@4e50c791]" started-at="2023-07-18T16:58:12 IST" name="errorValidationTest" finished-at="2023-07-18T16:58:14 IST" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecom.qa.standalone.ErrorValidationTest@4e50c791]" started-at="2023-07-18T16:58:14 IST" name="tearDown" finished-at="2023-07-18T16:58:15 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.ecom.qa.standalone.ErrorValidationTest@4e50c791]" started-at="2023-07-18T16:58:15 IST" name="launchApp" finished-at="2023-07-18T16:58:22 IST" duration-ms="7092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="productError()[pri:0, instance:com.ecom.qa.standalone.ErrorValidationTest@4e50c791]" started-at="2023-07-18T16:58:22 IST" name="productError" finished-at="2023-07-18T16:58:35 IST" duration-ms="13266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecom.qa.standalone.ErrorValidationTest@4e50c791]" started-at="2023-07-18T16:58:35 IST" name="tearDown" finished-at="2023-07-18T16:58:35 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecom.qa.standalone.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-07-18T16:58:04 IST" name="Submit Order Test" finished-at="2023-07-18T16:58:42 IST" duration-ms="38085">
+      <class name="com.ecom.qa.standalone.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" started-at="2023-07-18T16:58:05 IST" name="launchApp" finished-at="2023-07-18T16:58:12 IST" duration-ms="7642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitTest(java.util.HashMap)[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" started-at="2023-07-18T16:58:12 IST" name="submitTest" data-provider="getData" finished-at="2023-07-18T16:58:23 IST" duration-ms="10981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Vivek@2400, email=vivek93royal@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" started-at="2023-07-18T16:58:23 IST" name="tearDown" finished-at="2023-07-18T16:58:23 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" started-at="2023-07-18T16:58:24 IST" name="launchApp" finished-at="2023-07-18T16:58:29 IST" duration-ms="5306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitTest(java.util.HashMap)[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" started-at="2023-07-18T16:58:29 IST" name="submitTest" data-provider="getData" finished-at="2023-07-18T16:58:35 IST" duration-ms="6629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Rishu@240, email=rishu240@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" started-at="2023-07-18T16:58:35 IST" name="tearDown" finished-at="2023-07-18T16:58:36 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" started-at="2023-07-18T16:58:36 IST" name="launchApp" finished-at="2023-07-18T16:58:41 IST" duration-ms="4879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="OrderProductTest()[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" started-at="2023-07-18T16:58:41 IST" name="OrderProductTest" finished-at="2023-07-18T16:58:42 IST" depends-on-methods="com.ecom.qa.standalone.SubmitOrderTest.submitTest" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecom.qa.standalone.SubmitOrderTest@815b41f]" started-at="2023-07-18T16:58:42 IST" name="tearDown" finished-at="2023-07-18T16:58:42 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecom.qa.standalone.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
